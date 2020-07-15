@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name      = 'YandexCheckoutPayments'
-  s.version   = '3.6.0'
+  s.version   = '3.6.1'
   s.homepage  = 'https://github.com/yandex-money/yandex-checkout-payments-swift'
   s.license   = {
     :type => "MIT",
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.summary = 'Yandex Checkout Payments'
 
   s.source = {
-    :git => 'https://github.com/yandex-money/yandex-checkout-payments-swift.git',
+    :git => 'https://github.com/antony-ulyanov/yandex-checkout-payments-swift.git',
     :tag => s.version.to_s
   }
 
